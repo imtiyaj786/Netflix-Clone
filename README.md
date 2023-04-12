@@ -1,3 +1,8 @@
+# Building a Fullstack Netflix Clone with React, NextJS, TailwindCSS & Prisma
+![clonenetflix](https://user-images.githubusercontent.com/55544765/231393099-6249c6f8-58b4-40f8-af2b-7653c28886d7.png)
+
+This is a repository for a FullStack Netflix Clone tutorial using React, NextJS, TailwindCSS & Prisma.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -6,21 +11,76 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Features:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Environment, Typescript, NextJS Setup
+- MongoDB & Prisma connect, Database creation
+- Authentication with NextAuth, Google & Github Login
+- Full responsiveness on all pages
+- Cookie based authentication
+- API and Controllers creation
+- Detail-oriented effects and animations using TailwindCSS
+- React SWR data fetching
+- Zustand state management
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Node version 14.x**
+
+### Cloning the repository
+
+```shell
+git clone https://github.com/imtiyaj786/Netflix-Clone.git
+```
+
+### Install packages
+
+```shell
+npm i
+```
+
+### Setup .env file
+
+
+```js
+DATABASE_URL=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+GITHUB_ID=
+GITHUB_SECRET=
+NEXTAUTH_JWT_SECRET=
+NEXTAUTH_SECRET=
+```
+### Start the app
+
+```shell
+npm run dev
+```
+
+## Author
+
+:men: **Imtiyaj Alam**
+
+- [GitHub](https://github.com/imtiyaj786)
+- [LinkedIn](https://www.linkedin.com/in/imtiyaj786/)
+
+## 🤝 Contributing
+
+- Contributions, issues, and feature requests are welcome!
+
+- Feel free to check the [issues page] https://github.com/imtiyaj786/Netflix-Clone/issues .
+
+# Show your support
+
+Give a ⭐ if you like this project!
+
+## Live Demo
+
+- [Live Demo] https://Netflix-Clone-imtiyaj786.vercel.app/
+
 
 ## Learn More
 
