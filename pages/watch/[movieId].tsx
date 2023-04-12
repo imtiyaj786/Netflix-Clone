@@ -20,7 +20,7 @@ const Watch = () => {
         />
         <p className="text-white text-1xl md:text-3xl font-bold">
           <span className="font-light"> Watching:</span>
-          {data.title}
+          {data?.title}
         </p>
       </nav>
       <video

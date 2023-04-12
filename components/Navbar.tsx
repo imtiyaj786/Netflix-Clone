@@ -1,5 +1,5 @@
 import { BsChevronBarDown, BsSearch, BsBell } from "react-icons/bs";
-import NavbarItem from "./navbaritem";
+import NavbarItem from "./NavbarItem";
 import MobileMenu from "./MobileMenu";
 import { useCallback, useEffect, useState } from "react";
 import AccountMenu from "./AccountMenu";
@@ -71,8 +71,8 @@ const Navbar = () => {
             onClick={toggleAccountMenu}
             className="flex flex-row items-center gap-3 cursor-pointer relative"
           >
-            <div className="w-6 h-6 lg:w-10 lg:h-10 rounded-md overflow-hidden">
-              <img src="/images/default-blue.png" alt="" />
+            <div className="w-6 h-6 lg:w-8 lg:h-8 rounded-md overflow-hidden">
+              <img src="/images/default-blue.png" alt="Profile Image" />
             </div>
             <BsChevronBarDown
               className={`text-white transition ${
