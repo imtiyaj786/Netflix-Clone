@@ -1,6 +1,5 @@
 # Building a Fullstack Netflix Clone with React, NextJS, TailwindCSS & Prisma
-
-<<<<<<< HEAD
+![clonenetflix](https://user-images.githubusercontent.com/55544765/231393099-6249c6f8-58b4-40f8-af2b-7653c28886d7.png)
 
 This is a repository for a FullStack Netflix Clone tutorial using React, NextJS, TailwindCSS & Prisma.
 
@@ -13,7 +12,6 @@ First, run the development server:
 ```bash
 npm run dev
 ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 Features:
@@ -30,8 +28,6 @@ Features:
 
 ### Prerequisites
 
-<<<<<<< HEAD
-
 **Node version 14.x**
 
 ### Cloning the repository
@@ -48,58 +44,6 @@ npm i
 
 ### Setup .env file
 
-```js
-DATABASE_URL=
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-GITHUB_ID=
-GITHUB_SECRET=
-NEXTAUTH_JWT_SECRET=
-NEXTAUTH_SECRET=
-```
-
-### Start the app
-
-```shell
-npm run dev
-```
-
-## Author
-
-:men: **Imtiyaj Alam**
-
-- [GitHub](https://github.com/imtiyaj786)
-- [LinkedIn](https://www.linkedin.com/in/imtiyaj786/)
-
-## 🤝 Contributing
-
-- Contributions, issues, and feature requests are welcome!
-
-- Feel free to check the [issues page] https://github.com/imtiyaj786/Netflix-Clone/issues .
-
-# Show your support
-
-Give a ⭐ if you like this project!
-
-## Live Demo
-
-- # [Live Demo] https://Netflix-Clone-imtiyaj786.vercel.app/
-
-**Node version 14.x**
-
-### Cloning the repository
-
-```shell
-git clone https://github.com/imtiyaj786/Netflix-Clone.git
-```
-
-### Install packages
-
-```shell
-npm i
-```
-
-### Setup .env file
 
 ```js
 DATABASE_URL=
@@ -110,7 +54,6 @@ GITHUB_SECRET=
 NEXTAUTH_JWT_SECRET=
 NEXTAUTH_SECRET=
 ```
-
 ### Start the app
 
 ```shell
@@ -138,7 +81,6 @@ Give a ⭐ if you like this project!
 
 - [Live Demo] https://Netflix-Clone-imtiyaj786.vercel.app/
 
-> > > > > > > 9083e5fbbc504aff3b4edb366f8aef327a3c3c89
 
 ## Learn More
 
